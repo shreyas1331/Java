@@ -1,7 +1,7 @@
 package Stackkk;
 
 public class Stack_linkedlist {
-	class Node
+	static class Node    //Added static
 	{
 		int data;
 		Node next;
@@ -11,7 +11,7 @@ public class Stack_linkedlist {
 		}
 	}//END OF NODE
 	
-	class MyStack 
+	static class MyStack    //Added static 
 	{
 		Node head;
 		int sz;
