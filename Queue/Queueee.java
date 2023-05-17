@@ -1,4 +1,4 @@
-
+package Queue;
 public class Queueee {
 
 //	public static void main(String[] args) {

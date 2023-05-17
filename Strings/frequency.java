@@ -32,7 +32,8 @@ public class frequency {
         int arr[]=new int[26];//abb
 //        Arrays.fill(arr,0);
         for(int i=0;i<s.length();i++){
-            arr[s.charAt(i)-'a']+=1;
+            arr[s.charAt(i)-'a']=arr[s.charAt(i)-'a']+1;
+            
         }
         int ans=0;
         for(int i=0;i<26;i++){
