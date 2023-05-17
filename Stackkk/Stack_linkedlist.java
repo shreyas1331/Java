@@ -1,7 +1,7 @@
 package Stackkk;
 
 public class Stack_linkedlist {
-	class Node
+	static class Node
 	{
 		int data;
 		Node next;
@@ -11,7 +11,7 @@ public class Stack_linkedlist {
 		}
 	}//END OF NODE
 	
-	class MyStack 
+	static class MyStack 
 	{
 		Node head;
 		int sz;
@@ -49,12 +49,14 @@ public class Stack_linkedlist {
 	}//END OF STACK
 	public static void main(String[] args) {
 		MyStack st=new MyStack();
-//		System.out.println(st.isFull());
+		
+		//System.out.println(st.isFull());
 		st.push(10);
 		st.push(20);
 		st.push(30);
 		st.push(40);
 		st.push(50);
+		System.out.print(st.isEmpty());
 		
 		
 	}
