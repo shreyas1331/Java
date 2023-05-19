@@ -3,23 +3,28 @@ package Strings;
 public class Palindrome {
 
 	public static void main(String[] args) {
-		String s="abcba";
-		int i=0;
-		int j=s.length()-1;
-		boolean flag=true;
-		while(i<j) {
-			if(s.charAt(i)!=s.charAt(j)) {
-				flag=false;
+		String s="abcb";
+		char ch=s.charAt(0);
+		char sh=s.charAt(s.length()-1);
+		boolean flag=false;
+		for(int i=0;i<s.length();i++)
+		{
+			if(ch==sh)
+			{
+				flag=true;
 				break;
 			}
-			i++;
-			j--;
+			else {
+				flag=false;
+			}
 		}
-		if (flag==false) {
-			System.out.println("it is not palindrome");
+		if(flag==true)
+		{
+			System.out.println(flag);
 		}
-		if(flag==true) {
-			System.out.println("it is palindrome");
+		if(flag==false)
+		{
+			System.out.println(flag);
 		}
 	}
 

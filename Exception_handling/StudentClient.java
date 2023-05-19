@@ -1,7 +1,7 @@
 package Exception_handling;
 
 public class StudentClient {
-	public static void main(String[] args)  {
+	public static void main(String[] args) throws Exception  {
 		Student st = new Student();
 //		st.age = 12;
 //		st.name = "Ram";

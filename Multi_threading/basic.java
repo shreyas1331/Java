@@ -77,7 +77,7 @@ public class basic implements Runnable {
 		basic m1 = new basic();
 		Thread t1 = new Thread(m1,"A");
 		Thread t2 = new Thread(m1,"B");
-//		t1.setName("A");
+//		t1.setName("c");
 //		t2.setName("B");
 		System.out.println(t1.getName());
 		System.out.println(t2.getName());

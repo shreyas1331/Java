@@ -24,7 +24,7 @@ public class GoodSubString {
 	}
 
 	private static boolean isvov(char ch) {
-		if(ch=='a'||ch=='e'||ch=='i'||ch=='o')
+		if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u')
 		return true;
 	
 	return false;
