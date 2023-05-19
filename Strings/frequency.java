@@ -27,11 +27,10 @@ public class frequency {
 //			}
 //		}
 //		System.out.println(sb.charAt(index));
-//		---------------------                ---------------------------------
-		
 		Scanner sc=new Scanner(System.in);
         String s=sc.next();
         int arr[]=new int[26];//abb
+//        Arrays.fill(arr,0);
         for(int i=0;i<s.length();i++){
             arr[s.charAt(i)-'a']=arr[s.charAt(i)-'a']+1;
             

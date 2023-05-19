@@ -2,17 +2,17 @@ package Exception_handling;
 
 public class Exception_test {
 
-	public static void main(String[] args) throws Exception {
+	public static void main(String[] args) {
 		System.out.println("main methid started");
 		int a=9,b=0,c;
 		int[] arr=new int[5];
-		
-		if(a==9) {
-			throw new Exception("helo");}
-		c=8;
-		System.out.println(c);
+		try {
+			c=a/b;
+			System.out.println(c);
 			arr[7]=5;
-		
+		}catch(Exception e) {
+			System.out.println(e);
+		}
 		System.out.println("main method ended");
 	}
 

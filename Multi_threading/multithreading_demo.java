@@ -21,11 +21,11 @@ public class multithreading_demo implements Runnable {
 		Thread t3=new Thread(n1);
 		t2.start();
 		t1.start();
-//		try {
-////			t1.join();
-//		}catch(InterruptedException e) {
-//			e.printStackTrace();
-//		}
+		try {
+			t1.join();
+		}catch(InterruptedException e) {
+			e.printStackTrace();
+		}
 		
 		t3.start();
 	}

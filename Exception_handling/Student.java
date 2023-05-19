@@ -8,19 +8,20 @@ public class Student {
 		return age;
 	}
 
-	public void setAge(int age) throws Exception  {
+	public void setAge(int age) {
 //		if(age<0) {
 //			System.out.println("Age Can Not be -ve");
 //		}else {
 //			this.age = age;
 //		}
+		try {
 			if (age < 0) {
-				
-				throw new Exception();
-				
+				throw new Exception("age can not be -Ve");
 			}
-//			this.age = age;
-		
+			this.age = age;
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 
 	}
 

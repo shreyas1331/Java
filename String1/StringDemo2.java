@@ -12,11 +12,10 @@ public class StringDemo2 {
 		
 		//SUBSTRING(i,j)  &  SUBSTRING(i)(continuous part of string)
 		System.out.println(str.substring(0, 4));
-		System.out.println(str.substring(4));
 		 
 		
 		String s="physics";
-		for(int j=1;j<4;j++)
+		for(int j=2;j<4;j++)
 		{
 			System.out.println(s.substring(j));
 		}
