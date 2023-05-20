@@ -4,7 +4,7 @@ public class Insert_Begin {
 	public class Node{
 		int data;
 		Node next;
-		Node(int x){
+		public Node(int x){
 			this.data=x;
 			next=null;
 		}	
