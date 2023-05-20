@@ -1,11 +1,8 @@
 package Stackkk;
 
 public class Stack_linkedlist {
-<<<<<<< HEAD
-	static class Node
-=======
+
 	static class Node    //Added static
->>>>>>> 5c8d32547f85678b0308bd3b4f9e7dc850fa7ca0
 	{
 		int data;
 		Node next;
@@ -15,11 +12,7 @@ public class Stack_linkedlist {
 		}
 	}//END OF NODE
 	
-<<<<<<< HEAD
-	static class MyStack 
-=======
 	static class MyStack    //Added static 
->>>>>>> 5c8d32547f85678b0308bd3b4f9e7dc850fa7ca0
 	{
 		Node head;
 		int sz;
