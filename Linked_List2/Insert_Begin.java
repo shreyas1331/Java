@@ -1,3 +1,4 @@
+package Linked_List2;
 public class Insert_Begin {
 	public static class Node{
 		int data;

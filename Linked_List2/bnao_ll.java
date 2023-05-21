@@ -1,12 +1,27 @@
 package Linked_List2;
 
 public class bnao_ll {
+	
+	public static void displayR(Node head) {
+		if(head==null)return ;
+		displayR(head.next);
+		System.out.print(head.data+" ");
+		
+	}
 	public static void display(Node head){
 		Node temp=head;
 		while (temp!=null) {
 			System.out.print(temp.data+" ");
 			temp=temp.next;
 		}
+	}
+	public static int length(Node head) {
+		int count=0;
+		while(head!=null) {
+			count++;
+			head=head.next;
+		}
+		return count;
 	}
 	public static class Node{
 		int data;
@@ -27,6 +42,10 @@ public class bnao_ll {
 		c.next=d;
 		d.next=e;
 		display(a);
+		System.out.println();
+		displayR(a);
+		System.out.println();
+		System.out.println(length(a));
 	}
 
 }
