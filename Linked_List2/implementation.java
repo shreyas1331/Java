@@ -25,7 +25,6 @@ public class implementation {
 			}
 		}
 		
-		
 		void insertAtBegin(int val) {
 			Node temp=new Node(val);
 			if(head==null) {
@@ -44,7 +43,7 @@ public class implementation {
 				insertAtBegin(val);
 				return;
 			}
-			for(int i=1;i<=idx-1;i++) {
+			for(int i=0;i<idx-1;i++) {
 				temp=temp.next;
 			}
 			t.next=temp.next;
@@ -90,11 +89,11 @@ public class implementation {
 		System.out.println(ll.size());
 		ll.insertAtBegin(7);
 		ll.display();
-		ll.insertAt(0, 1);
+		ll.insertAt(1, 1);
 		System.out.println();
 		ll.display();
-		System.out.println();
-		System.out.println(ll.getAt(3));
+//		System.out.println();
+//		System.out.println(ll.getAt(3));
 	}
 	
 }
