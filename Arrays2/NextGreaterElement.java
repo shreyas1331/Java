@@ -1,10 +1,16 @@
 package Arrays2;
-
+import java.util.*;
 public class NextGreaterElement {
 //problem is time complexity O(n^2)[Array]
 	//if we want to be it in O(n)[by STACK]
 	public static void main(String[] args) {
-		int[] arr= {1,3,2,1,8,6,3,4};
+//		int[] arr= {1,3,2,1,8,6,3,4};
+		Scanner sc=new Scanner(System.in);
+		int n=sc.nextInt();
+		int[] arr=new int[n];
+		for(int i=0;i<n;i++) {
+			arr[i]=sc.nextInt();
+		}
 		int[] res=new int[arr.length];
 		for(int i=0;i<arr.length;i++) {
 			res[i]=-1;
