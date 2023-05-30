@@ -15,12 +15,18 @@ public class Stock_Span {
             										//else take previous 
             System.out.print(span+" ");
             s.push(i);//process remaining items
-        }    
+        }
+        System.out.print("END");
     }
 	public static void main(String[] args) {
-		
-		int[] arr=new int[]{18,12,13,14,11,16};
-        
+		Scanner sc=new Scanner(System.in);
+//		int[] arr=new int[]{18,12,13,14,11,16};
+		int n=sc.nextInt();
+		int[] arr=new int[n];
+		for(int i=0;i<n;i++)
+		{
+			arr[i]=sc.nextInt();
+		}
         printSpan(arr,arr.length); 	
 		
 	}
