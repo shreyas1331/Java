@@ -21,7 +21,5 @@ public class frequency {
 			}
 			System.out.println(c+" ");
 		}
-
 	}
-
 }

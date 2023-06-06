@@ -1,7 +1,7 @@
 package Array1;
 import java.util.*;
 class missing_element {
-
+	
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
 		int n=sc.nextInt();
@@ -19,9 +19,6 @@ class missing_element {
 		System.out.println(sum1);
 
 		int sum2=sum-sum1;
-		System.out.println(sum2);
-
-	
-		
+		System.out.println(sum2);	
 	}
 }
