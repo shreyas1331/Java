@@ -9,7 +9,7 @@ public class kth_element_from_last {
 			ll.add(n);
 			n=sc.nextInt();
 		}
-		System.out.println(ll);
+//		System.out.println(ll);
 		int k=sc.nextInt();
 		int r=1;
 		for(int i=ll.size()-1;i>0;i--)
