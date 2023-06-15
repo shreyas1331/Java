@@ -5,7 +5,7 @@ public class Count_distinct_elements {
 	
 	public static void main(String[] args) {
 		HashSet<Integer> h=new HashSet<>();
-		int[] arr= {1,13,10,12,31};
+		int[] arr= {1,2,2,3,4};
 		
 		for(int i=0;i<arr.length;i++) {
 			h.add(arr[i]);

@@ -25,9 +25,14 @@ public class frequency_element
     
        for(Map.Entry<Integer, Integer> itr: hmp.entrySet())
         System.out.println(itr.getKey() + " " + itr.getValue());
+//       System.out.println(hmp.get(arr[2]));
     }
 }
 //15 2
 //16 1
 //27 2
 //28 1
+
+//15 1
+//16 1
+//27 1
