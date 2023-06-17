@@ -1,6 +1,6 @@
 package Strings2;
 import java.util.*;
-public class Check_char {
+public class Anagram {
 //question1,2
 	public static void main(String[] args) {
 		String s1="Hello";
