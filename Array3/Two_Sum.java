@@ -5,7 +5,8 @@ public class Two_Sum {
 	public static void main(String[] args) {
 		int[]arr = {2,7,11,15};
 		int target = 9;
-		System.out.print((result));
+		System.out.print(two_sum(arr,target));
+//		two_sum()
 		
 	}
 	public static int[] two_sum(int[]arr,int target) {
