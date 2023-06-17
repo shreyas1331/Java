@@ -20,7 +20,7 @@ public class LargestSubArray_WithSUM {
 			if(!mp.containsKey(sum)) mp.put(sum, i); //add to map if noot present
 			
 //			check if 'sum-k' is present in 'map' or not 
-			if(mp.containsKey(sum-Givensum)) {
+			if(mp.containsKey(sum-Givensum)) {       //10-5=5(it contains 5)
 				maxLen=Math.max(maxLen, i-mp.get(sum-Givensum));// update maxLength
 			}
 		}
