@@ -13,7 +13,6 @@ public class LevelOrderTraversal {
 	      left=right=null;
 	  }
 	}
-
 	    public static void main(String args[]) 
 	    { 
 	        Node root=new Node(10);
