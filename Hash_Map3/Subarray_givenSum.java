@@ -3,8 +3,8 @@ import java.util.*;
 public class Subarray_givenSum {
 
 	public static void main(String[] args) {
-		 int[] arr= {5, 8, 6, 13, 3, -1};
-		 int sum=22;
+		 int[] arr= {1,1,1};
+		 int sum=2;
 		 System.out.println(GivenSum(arr,sum));
 	}
 	public static int GivenSum(int[] arr,int sum) {

@@ -5,11 +5,15 @@ public class Count_distinct_elements {
 	
 	public static void main(String[] args) {
 		HashSet<Integer> h=new HashSet<>();
-		int[] arr= {1,2,2,3,4};
+		int[] arr= {1,5,4,2,9,9,9};//1 5 4 2 9
 		
 		for(int i=0;i<arr.length;i++) {
 			h.add(arr[i]);
 		}
+		for(Integer s:h) {
+        	System.out.print(s+" ");
+        }
+		System.out.println();
 		System.out.println( h.size());
 	}
 

@@ -3,8 +3,8 @@ import java.util.*;
 public class LargestSubArray_WithSUM {
 
 	public static void main(String[] args) {
-		int[] arr= {5,2,3};
-		int Givensum=5;
+		int[] arr= {1,2,1,2,1};
+		int Givensum=3;
 		System.out.println(maxLen(arr, Givensum));
 	}
 	public static int maxLen(int[] arr,int Givensum) {
