@@ -4,7 +4,7 @@ public class reversewordinSentence {
 //INPUT="i am an online educator"
 //OUTPUT="i ma na enilno rotacude"
 	public static void main(String[] args) {
-		String s="i am an online educator";                     //GIVEN STRING
+		String s="Java is fun!";                     //GIVEN STRING
 		String ans="";                                          //EMPTY STRING
 		StringBuilder sb =new StringBuilder ("");
 		for(int i=0;i<s.length();i++) {                         //TRAVERSING
