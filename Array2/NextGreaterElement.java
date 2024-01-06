@@ -4,7 +4,7 @@ public class NextGreaterElement {
 //problem is time complexity O(n^2)[Array]
 	//if we want to be it in O(n)[by STACK]
 	public static void main(String[] args) {
-		int[] arr= {1,3,2,1,8,6,3,4};
+		int[] arr= {20,30,10,5,15};
 //		Scanner sc=new Scanner(System.in);
 //		int n=sc.nextInt();
 //		int[] arr=new int[n];
