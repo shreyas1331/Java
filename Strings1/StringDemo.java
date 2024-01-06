@@ -53,10 +53,11 @@ public class StringDemo {
 		System.out.println(s2.toUpperCase()); //ABC
 		System.out.println(s2.toLowerCase()); //abc
 		
-//		String s="abc";
-//		String s1=s+"abc";
-//		String s2="abcabc";
-//		System.out.println(s1==s2);
+		String s="abc";
+		String ss1=s+"abc";
+		System.out.println(ss1+" ss1");
+		String ss2="abcabc";
+		System.out.println(s1==s2);
 		
 		//CONTAINS STARTWITH ENDWITH
 		String s4="shreyas";

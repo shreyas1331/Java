@@ -11,7 +11,7 @@ public class StringDemo2 {
 		System.out.println(str);
 		
 		//SUBSTRING(i,j)  &  SUBSTRING(i)(continuous part of string)
-		System.out.println(str.substring(0, 4));
+		System.out.println(str.substring(1, 4));
 		 
 		
 		String s="physics";
