@@ -76,9 +76,9 @@ public class transpose {
 		System.out.println("transposeInPlace is:");
 		transposeInPlace(a,r,c);
 		printMatrix(a);
-		rotate(a,r);
-		System.out.println("rotation of matrix");
-		printMatrix(a);
+//		rotate(a,r);
+//		System.out.println("rotation of matrix");
+//		printMatrix(a);
 	}
 
 }

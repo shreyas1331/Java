@@ -9,9 +9,7 @@ public class WaveColWise {
 		};
 		for(int i=0;i<arr[0].length;i++) {
 			if(i%2==0) {
-				int row=0;
-				int col=i;
-//				while()
+				for(int j=0;j<)
 			}
 		}
 	}
