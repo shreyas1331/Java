@@ -4,7 +4,7 @@ public class Subarray_ZeroSum {
 //1.prefix lelo phir add krdo usmai array ka number aur aggr
 	//h contains toh true nhi toh false
 	public static void main(String[] args) {
-		int[] arr= {1,2,-3};
+		int[] arr= {-3,2,1,4};
 		System.out.println(subarray(arr));
 	}
 	public static int subarray(int[] arr) {

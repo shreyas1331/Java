@@ -8,7 +8,6 @@ public class pair_sum
         int x = 14;
         System.out.println(pairWithSumX(arr, len, x));
     }
-    
     static int pairWithSumX(int arr[],int n, int X)
     {
         HashSet<Integer> hs = new HashSet<>();

@@ -1,7 +1,5 @@
 package TwoD_array;
-
 import java.util.Scanner;
-
 public class transpose {
 	
 	static void printMatrix(int[][]a) {
@@ -13,7 +11,7 @@ public class transpose {
 		}
 	}
 	static int[][] findTranspose(int [][] matrix, int r,int c){
-		int [][] ans=new int[c][r];
+		int[][]ans=new int[c][r];
 		for(int i=0;i<c;i++) {
 			for(int j=0;j<r;j++) {
 				ans[i][j]=matrix[j][i];
@@ -23,7 +21,7 @@ public class transpose {
 	}
 	static void transposeInPlace(int [][] matrix ,int r,int c) {
 		for(int i=0;i<c;i++) {
-			for(int j=i;j<r;j++) {
+			for(int j=i;j<r;j++) {   //remeber this j=i because two times swap ho raha hai
 				//swap
 				int temp=matrix[i][j];
 				matrix[i][j]=matrix[j][i];
@@ -39,7 +37,7 @@ public class transpose {
 			arr[i]=arr[j];
 			arr[j]=temp;
 			i++;
-			j++;
+			j--;
 		}
 	}
 	static void rotate(int[][]matrix,int n) {
@@ -47,9 +45,7 @@ public class transpose {
 		transposeInPlace(matrix,n,n);
 		//reverse each row of transposed matrix
 		for(int i=0;i<n;i++) {
-			/*
 			
-			*/
 			reverseArray(matrix[i]);
 		}
 		
@@ -76,9 +72,9 @@ public class transpose {
 		System.out.println("transposeInPlace is:");
 		transposeInPlace(a,r,c);
 		printMatrix(a);
-//		rotate(a,r);
-//		System.out.println("rotation of matrix");
-//		printMatrix(a);
+		System.out.println("rotation of matrix");
+		rotate(a,r);
+		printMatrix(a);
 	}
 
 }

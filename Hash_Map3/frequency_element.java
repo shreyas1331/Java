@@ -16,7 +16,6 @@ public class frequency_element
         LinkedHashMap<Integer, Integer> hmp = new LinkedHashMap<Integer, Integer>();//created a map
         for(int i = 0; i < n; i++)
         {
-//            int key = arr[i];
             if(hmp.containsKey(arr[i]) == true)
               hmp.put(arr[i], hmp.get(arr[i]) + 1);
             else

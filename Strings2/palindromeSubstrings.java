@@ -13,7 +13,7 @@ public class palindromeSubstrings {
 		return true;
 	}
 	public static void main(String[] args) {
-		String str="abc";
+		String str="ababab";
 		int count=0;
 		for(int i=0;i<str.length();i++) {
 			for(int j=i+1;j<=str.length();j++) {
@@ -26,5 +26,4 @@ public class palindromeSubstrings {
 		}
 		System.out.println("The no. of palindromic substrings are:"+count);
 	}
-
 }
