@@ -1,4 +1,4 @@
-package TwoD_array;
+ package TwoD_array;
 import java.util.Scanner;
 public class transpose {
 	

@@ -5,6 +5,7 @@ public class reversewordinSentence {
 //OUTPUT="i ma na enilno rotacude"
 	public static void main(String[] args) {
 		String s="Java is fun!";                     //GIVEN STRING
+		solve(s);
 		String ans="";                                          //EMPTY STRING
 		StringBuilder sb =new StringBuilder ("");
 		for(int i=0;i<s.length();i++) {                         //TRAVERSING
@@ -23,6 +24,16 @@ public class reversewordinSentence {
 		ans=ans+sb;
 //		System.out.println(sb);
 		System.out.println(ans);
+	}
+	public static void solve(String s) {
+		String[]arr=s.split("\\s");
+		String code="";
+		for(String word:arr) {
+			StringBuilder sb=new StringBuilder(word);
+			sb.reverse();
+			code +=sb.toString()+" ";
+		}
+		System.out.println(code);
 	}
 
 }

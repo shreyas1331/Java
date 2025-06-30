@@ -3,9 +3,9 @@ import java.util.*;
 public class GoodSubString {
 
 	public static void main(String[] args) {
-//		String s="cbaeicde";
-		Scanner sc=new Scanner(System.in);
-		String s=sc.nextLine();
+		String s="cbaeicde";
+//		Scanner sc=new Scanner(System.in);
+//		String s=sc.nextLine();
 		int i=0;
 		int ans=0;
 		int count=0;
