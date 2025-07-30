@@ -11,7 +11,7 @@ public class nth_node {
 	public static Node nth_node(Node head, int n) {
 		Node slow=head;
 		Node fast=head;
-		for(int i=0;i<=n;i++) {
+		for(int i=1;i<=n;i++) {
 			fast=fast.next;
 		}
 		while(fast!=null) {

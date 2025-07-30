@@ -20,6 +20,5 @@ public class Insert_Begin {
 			head=insertBegin(head,20);
 			head=insertBegin(head,10);
 		}
-
 }
 
