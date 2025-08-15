@@ -35,6 +35,7 @@ public class odd_even {
 
 				}
 				System.out.println(l2);
+				System.out.print("---l2 list---");
 				for(int i=0;i<n;i++){
 					int n3=list.get(i);
 					if(n3 %2==0){
