@@ -16,7 +16,11 @@ public class RemoveConsecutiveSubsequences {
 		}
 		int[] res=new int[st.size()];
 		int m=res.length;
-		for(int i=0;i<m;i++)
+		// for(int i=0;i<m;i++)
+		// {
+		// 	res[i]=st.pop();
+		// }
+		for(int i=m-1;i>=0;i--)
 		{
 			res[i]=st.pop();
 		}
@@ -31,5 +35,20 @@ public class RemoveConsecutiveSubsequences {
 			System.out.print(res[i]+" ");
 		}
 	}
+	// public static int []remove(int[]arr){
+	// 	Stack<Integer> st=new Stack<>();
+	// 	int n=arr.length;
+	// 	for(int i=0;i<arr.length;i++){
+	// 		if(st.isEmpty() || st.peek()!=arr[i]) st.push(arr[i]);
+	// 		else if(st.peek()==arr[i]){
+	// 			if(i==n-1 || arr[i]!=arr[i+1]) st.pop();
+	// 		}
+	// 	}
+	// 	int[]res=new int[st.size()];
+	// 	for(int i=0;i<res.length;i++){
+	// 		res[i]=st.pop();
+	// 	}
+	// 	return res;
+	// }
 
 }

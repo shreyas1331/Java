@@ -43,10 +43,22 @@ public class Next_Greater {
         
         for(int x: nextGreater(arr,arr.length)){
             System.out.print(x + " ");   
-        }  
-	  
+        } 
+        nextGreater2(arr,arr.length);
 	}
-	
+	public static void nextGreater2(int[]arr,int n){
+        int[]res=new int[n];
+        for(int i=0;i<n;i++){
+            res[i]=-1;
+            for(int j=i+1;j<n;j++){
+                if(arr[j]>arr[i]){
+                    res[i]=arr[j];
+                    break;
+                }
+            }
+        }
+        System.out.println(Arrays.toString(res));
+    }
 
 
 }
