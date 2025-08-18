@@ -18,12 +18,10 @@ public class Create_Thread_Class extends Thread {
 		System.out.println("Child thread ending");
 	}
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Create_Thread_Class ThreadOb = new Create_Thread_Class(); 
 		System.out.println(Thread.currentThread());
 		ThreadOb.start();
 		try{
-			
 			System.out.println(ThreadOb);
 			Thread.sleep(1000);
 			ThreadOb.interrupt();
